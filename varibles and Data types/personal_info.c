@@ -4,7 +4,7 @@
 int main()
 {
     int age;
-    char name[50];
+    char name[50], color[20];
     float height;
 
     printf("whats your name: "); // Checks user age.
@@ -15,6 +15,9 @@ int main()
 
     printf("How old are you: ", age); // Checks users age.
     scanf("%d", &age);
+
+    printf("Whats your fav color: ", color);
+    scanf("%s", &color);
 
     return 0;
 }
