@@ -2,16 +2,17 @@
 
 int main()
 {
-    int x = 7, y = 5;
+    int x, y;
+
+    printf("Enter the value of x: ");
+    scanf("%d", &x);
+
+    printf("Enter the value of y: ");
+    scanf("%d", &y);
+
     
-    
-    
-    if (x > y)
-    {
-        printf("x is greater than y\n");
-    }
-    else if (x < y)
-    {
-        printf("x is less than y\n");
-    }
+    int sum = x + y;
+
+    printf("Anwser is: %d", sum);
+    return 0;
 }
